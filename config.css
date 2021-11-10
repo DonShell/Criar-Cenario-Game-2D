@@ -1,0 +1,22 @@
+.f
+{
+    position: relative;
+    float: left;
+}
+#plano0
+{
+    height:100%;
+    width: 100%;
+    background-image:url('/cenario/plantas/solo/grama-verde-1.png');
+}
+#plano1
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#all
+{
+    height:100%;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+body#enterGame{
+	background-color:#111111;
+    /*perspective: 150px;
+	 
+    transform-style: preserve-3d;
+	 transform: rotateZ(-5deg)*/
+}
+body#enterGame div{
+    background-color: #b7459b;
+    border-radius: 6px;
+    position: absolute;
+    height: 20%;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+    top: 40%;
+    padding-top: 44px;
+}

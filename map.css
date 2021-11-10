@@ -1,0 +1,160 @@
+#ceu
+{
+    background-color: rgb(170, 210, 234);
+    height: 100%;
+    width:100%;
+    position:fixed;
+    left:0px;
+    top: 0px;
+}
+#cenario
+{/*
+    height:5200px;
+    width:5200px;*/
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.ig /*Item grade*/
+{
+    position: relative;
+    float:left;
+    /*height:1%;
+    width:1%;*/
+    min-height:50px;
+    min-width:50px;
+    border: 1px solid #000;
+    background-size: 100%;   
+}
+.oc /*objeto de cenario*/
+{
+    position: relative;
+    float:left;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000; 
+    background-size: 100%;   
+}
+#desenvolver
+{
+    position:fixed;
+    right:0px;
+    height: 100%;
+    width:30%;
+    min-width:112px;
+    background-color: rgba(1,1,1,0.5);
+    top:0px;
+}
+#desenvolver #opcoes
+{
+
+    position:absolute;
+    left:0px;
+    height: 30%;
+    width:100%;
+    background-color: rgba(1,1,1,0.5);
+    top:0px;
+}
+#desenvolver #objetos
+{
+    position:absolute;
+    top:30%;
+    height: 70%;
+    width:100%;
+    overflow-y: auto;
+}
+.y /*linha*/
+{
+    position: relative;
+    height: 50px;
+    margin:0px;
+    top:0px;
+}
+#desenvolver #opcoes #selecionado
+{
+    width: 95px;
+    height: 95px;
+    border: 1px solid #000; 
+    position: relative;
+    float: left;
+    padding:7px;
+}
+#desenvolver #opcoes #selecionado #imagem
+{
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 100%;
+}
+#desenvolver #opcoes #selecionado #rodar {
+    background-image: url(icons/rodar.png);
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0px;
+    top:0px;
+}
+#desenvolver #opcoes  #selecionado #espelhar {
+    background-image: url(icons/espelhar.png);
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0px;
+    top:0px;
+}
+#desenvolver #opcoes #limpa
+{
+    background-image: url(icons/x.png);
+    background-size: 100%;
+    width: 29px;
+    height: 29px;
+    background-repeat: no-repeat;
+}
+#desenvolver #opcoes #seta
+{
+    background-image: url("icons/seta.png");
+    background-size: 100%;
+    width: 29px;
+    height: 29px;
+    background-repeat: no-repeat;
+}
+#desenvolver #opcoes #btn_gerCode
+{
+    background-size: 100%;
+    /* width: 29px; */
+    height: 25px;
+    background-repeat: no-repeat;
+    font-size: 9px;
+}
+#code
+{
+    height: 0%;
+    width: 0%;
+    position:fixed;
+    bottom:-1px;
+}
+#tamanhoQuadro input
+{
+
+    font-size: 8px;
+    width: 21px;
+}
+
+#tamanhoQuadro
+{
+    font-size: 11px;
+    color: #cccaca;
+    background-color: #cff4aa;
+}
+.FerramentaD
+{
+    position:relative;
+    float:left;
+    padding:7px;
+}
